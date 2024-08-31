@@ -53,7 +53,7 @@ const Modal = () => {
                         <input type='number' name='phone' id='phone' value={formData.phone} onChange={handleChange} required />
                         <label>Date of Birth:</label>
                         <input type='date' name='dob' id='dob' value={formData.dob} onChange={handleChange} required />
-                        <button type='submit'>Submit</button>
+                        <button type='submit' className='submit-button'>Submit</button>
                     </form>
                 </div>
 
